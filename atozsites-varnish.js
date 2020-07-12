@@ -8,28 +8,28 @@ function createRow(tableID, id, addr, port, secret) {
 	var td2 = document.createElement ('td');
 	var td3 = document.createElement ('td');
 	var td4 = document.createElement ('td');
-	var Bestwebsite_addr = document.createElement ('input');
-	var Bestwebsite_port = document.createElement ('input');
-	var Bestwebsite_secret = document.createElement ('input');
+	var atozsites_addr = document.createElement ('input');
+	var atozsites_port = document.createElement ('input');
+	var atozsites_secret = document.createElement ('input');
 	var dRow = document.createElement ('input');
 
-	Bestwebsite_addr.className = "regular-text";
-	Bestwebsite_addr.type = "text";
-	Bestwebsite_addr.id = id;
-	Bestwebsite_addr.name = "BestwebsiteVarnish_addr[]";
-	Bestwebsite_addr.value = addr || "";
+	atozsites_addr.className = "regular-text";
+	atozsites_addr.type = "text";
+	atozsites_addr.id = id;
+	atozsites_addr.name = "atozsitesVarnish_addr[]";
+	atozsites_addr.value = addr || "";
 
-	Bestwebsite_port.className = "small-text";
-	Bestwebsite_port.type = "text";
-	Bestwebsite_port.id = id;
-	Bestwebsite_port.name = "BestwebsiteVarnish_port[]";
-	Bestwebsite_port.value = port || "";
+	atozsites_port.className = "small-text";
+	atozsites_port.type = "text";
+	atozsites_port.id = id;
+	atozsites_port.name = "atozsitesVarnish_port[]";
+	atozsites_port.value = port || "";
 
-	Bestwebsite_secret.className = "regular-text";
-	Bestwebsite_secret.type = "text";
-	Bestwebsite_secret.id = id;
-	Bestwebsite_secret.name = "BestwebsiteVarnish_secret[]";
-	Bestwebsite_secret.value = secret || "";
+	atozsites_secret.className = "regular-text";
+	atozsites_secret.type = "text";
+	atozsites_secret.id = id;
+	atozsites_secret.name = "atozsitesVarnish_secret[]";
+	atozsites_secret.value = secret || "";
 
 	dRow.className = "";
 	dRow.type = "button";
@@ -38,9 +38,9 @@ function createRow(tableID, id, addr, port, secret) {
 	dRow.id = id;
 	dRow.onclick = function () { deleteRow(tableID, id); }
 
-	td1.appendChild (Bestwebsite_addr);
-	td2.appendChild (Bestwebsite_port);
-	td3.appendChild (Bestwebsite_secret);
+	td1.appendChild (atozsites_addr);
+	td2.appendChild (atozsites_port);
+	td3.appendChild (atozsites_secret);
 	td4.appendChild (dRow);
 	row.appendChild (td1);
 	row.appendChild (td2);

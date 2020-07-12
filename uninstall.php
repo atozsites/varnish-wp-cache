@@ -8,14 +8,14 @@ if ( !defined( 'ABSPATH') && !defined('WP_UNINSTALL_PLUGIN') ) {
     exit();
  }
 
-delete_option('BestwebsiteVarnish_addr');
-delete_option('BestwebsiteVarnish_port');
-delete_option('BestwebsiteVarnish_secret');
-delete_option('BestwebsiteVarnish_timeout');
-delete_option('BestwebsiteVarnish_purge_url');
-delete_option('BestwebsiteVarnish_update_pagenavi');
-delete_option('BestwebsiteVarnish_update_commentnavi');
-delete_option('BestwebsiteVarnish_use_adminport');
-delete_option('BestwebsiteVarnish_vversion');
+delete_option('atozsitesVarnish_addr');
+delete_option('atozsitesVarnish_port');
+delete_option('atozsitesVarnish_secret');
+delete_option('atozsitesVarnish_timeout');
+delete_option('atozsitesVarnish_purge_url');
+delete_option('atozsitesVarnish_update_pagenavi');
+delete_option('atozsitesVarnish_update_commentnavi');
+delete_option('atozsitesVarnish_use_adminport');
+delete_option('atozsitesVarnish_vversion');
 
 ?>

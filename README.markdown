@@ -1,9 +1,9 @@
-Bestwebsite Varnish
+atozsites Varnish
 =================
 
-* Contributors: Bestwebsite
+* Contributors: atozsites
 
-* Donate link: http://github.com/Bestwebsite/varnish-wp-cache
+* Donate link: http://github.com/atozsites/varnish-wp-cache
 
 * Tags: cache, caching, performance, varnish, purge, speed
 
@@ -13,7 +13,7 @@ Bestwebsite Varnish
 
 * Stable tag: 0.8
 
-Bestwebsite Varnish is a simple plugin that purges new and edited content.
+atozsites Varnish is a simple plugin that purges new and edited content.
 
 Description
 -----------
@@ -29,7 +29,7 @@ Installation
 
 This section describes how to install the plugin and get it working.
 
-1. Install the plugin 'Bestwebsite Varnish' through the 'Plugins' menu in
+1. Install the plugin 'atozsites Varnish' through the 'Plugins' menu in
 WordPress
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
